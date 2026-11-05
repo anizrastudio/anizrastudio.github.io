@@ -1,0 +1,30 @@
+/* Anizra Studio: design tokens */
+:root {
+  --color-bg: #131211;        /* hitam arang */
+  --color-surface: #1E1C1A;   /* kartu, sedikit lebih terang */
+  --color-text: #F5F1EB;      /* putih hangat */
+  --color-muted: #A8A29A;     /* teks pendukung */
+  --color-accent: #E8693F;    /* oranye terakota */
+  --color-on-accent: #131211; /* teks DI ATAS warna aksen */
+  --font: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --radius-lg: 28px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+
+.container { width: min(100% - 2.5rem, 1200px); margin-inline: auto; }
+
+h1, h2 { font-weight: 800; line-height: 1.1; }
+
+section { padding-block: 4rem; }
