@@ -28,3 +28,85 @@ img { display: block; max-width: 100%; height: auto; }
 h1, h2 { font-weight: 800; line-height: 1.1; }
 
 section { padding-block: 4rem; }
+/* ===== Header ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(19, 18, 17, 0.85);
+  backdrop-filter: blur(10px);
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  min-height: 4.5rem;
+}
+.brand { font-weight: 800; font-size: 1.25rem; text-decoration: none; }
+.brand__dot { color: var(--color-accent); }
+
+.site-nav { display: none; } /* HP: disembunyikan dulu, tombol ☰ menyusul di Sesi 3 */
+.site-nav a {
+  color: var(--color-muted);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.site-nav a:hover { color: var(--color-text); }
+
+/* ===== Tombol ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn--primary { background: var(--color-accent); color: var(--color-on-accent); }
+.btn--ghost { border-color: rgba(245, 241, 235, 0.4); }
+.btn--ghost:hover { background: rgba(245, 241, 235, 0.1); }
+.btn--small { min-height: 44px; padding: 0.5rem 1.1rem; font-size: 0.9rem; }
+
+/* ===== Hero ===== */
+.hero { padding-block: 1rem 3rem; }
+.hero__card {
+  border-radius: var(--radius-lg);
+  padding: 3rem 1.5rem 2rem;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(232, 105, 63, 0.85), transparent 45%),
+    linear-gradient(160deg, #3B1E13 0%, var(--color-surface) 60%);
+}
+.eyebrow { color: var(--color-accent); font-weight: 600; margin-bottom: 1rem; }
+.hero__title {
+  font-size: clamp(2.25rem, 1.2rem + 4.5vw, 4.75rem);
+  letter-spacing: -0.02em;
+  max-width: 15ch;
+  margin-bottom: 1.25rem;
+}
+.hero__lead { color: var(--color-muted); font-size: 1.05rem; max-width: 52ch; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
+.hero__points {
+  list-style: none;
+  padding: 1.5rem 0 0;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(245, 241, 235, 0.15);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+.hero__points span { display: block; color: var(--color-accent); font-weight: 800; }
+
+/* ===== Layar lebar (laptop) ===== */
+@media (min-width: 900px) {
+  .site-nav { display: flex; gap: 1.75rem; }
+  .hero__card { padding: 5rem 4rem 3rem; }
+  .hero__points { grid-template-columns: repeat(4, 1fr); }
+}
