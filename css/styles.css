@@ -417,7 +417,7 @@ section { padding-block: 4rem; }
   .faq { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 4rem; align-items: start; }
   .faq .section-head { margin-bottom: 0; }  
   .contact-card { padding: 5rem 4rem; }
-  .contact-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .contact-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .site-footer__inner { grid-template-columns: 1fr auto; align-items: start; }
   .site-footer__copy { grid-column: 1 / -1; padding-top: 1.5rem; border-top: 1px solid rgba(245, 241, 235, 0.08); }
 }
