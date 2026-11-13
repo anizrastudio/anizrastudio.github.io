@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anizrastudio.github.io/sitemap.xml
+Sitemap: https://anizrastudio.com/sitemap.xml
