@@ -33,9 +33,13 @@ Isinya ringkasan hal penting supaya tidak perlu dijelaskan ulang.
 - Halaman Indonesia: `index.html`. Halaman Inggris: `en/index.html`. Isi keduanya harus tetap sejajar.
 - Urutan section: hero, masalah, layanan, untuk-siapa, karya, cara-kerja, tentang, faq, kontak, footer.
 - Karya:
-  - Reforma: proyek nyata, https://anizrastudio.github.io/reforma-furniture/
+  - Semua kartu ukurannya setara (tidak ada kartu besar). Laptop: baris 1 = 2 kartu lebar (Reforma, CW Bali), baris 2 = 3 kartu.
+  - Reforma: proyek nyata (tetap tampilkan angka keunggulannya), https://anizrastudio.github.io/reforma-furniture/
   - Tani Segar Bedugul: konsep, https://anizrastudio.github.io/tani-segar-bedugul/
-  - Lereng Coffee: "Dalam pengerjaan".
+  - Lereng Coffee: konsep, belum dibuat (kartunya disembunyikan sampai selesai).
+  - Karya tim senior di grid yang sama: CW Bali, EBD-PHB, Tabuhan Island (label kartu "Tim senior · …", dijelaskan di catatan bawah section).
+    Dibuat oleh mentor & mitra senior Anizra (pemilik perusahaan-perusahaan itu, sudah setuju ditampilkan).
+    Selalu beri label "Tim senior". **Jangan pernah** menyebutnya sebagai karya Anizra Studio sendiri.
 
 ## 5. Aturan teknis
 - HTML, CSS, dan JS biasa (tanpa framework). Penamaan class memakai **BEM**.
