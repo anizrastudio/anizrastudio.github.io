@@ -3,8 +3,11 @@
 File ini dibaca otomatis oleh Claude Code setiap kali proyek ini dibuka.
 Isinya ringkasan hal penting supaya tidak perlu dijelaskan ulang.
 
+> Repo GitHub ini **publik**. Jangan menulis data rahasia (password, API key, data klien, file penawaran) di file mana pun di proyek ini.
+> File `.htaccess` memblokir semua file `.md` dan folder `.git` agar tidak bisa dibuka dari website. Jangan dihapus.
+
 ## 1. Tentang pemilik
-- Pemilik: pebisnis, **bukan programmer**, masih pemula. Fokusnya bisnis, bukan teknis.
+- Pemilik fokus pada sisi bisnis. Fokus teknis diserahkan ke Claude.
 - Jelaskan dalam **Bahasa Indonesia yang sederhana**, langkah demi langkah, tanpa istilah teknis yang tidak perlu.
 - Kode, nama class, dan komentar kode tetap dalam **bahasa Inggris**.
 - Pola kerja: **Claude yang menulis kode, pemilik yang memeriksa (review)**.
