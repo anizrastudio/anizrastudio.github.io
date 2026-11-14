@@ -53,6 +53,7 @@ Isinya ringkasan hal penting supaya tidak perlu dijelaskan ulang.
   - Animasi muncul saat di-scroll diatur oleh `initReveal()` di JS.
   - Selalu hormati `prefers-reduced-motion`.
 - SEO: semua URL absolut memakai `https://anizrastudio.com/`, yaitu canonical, hreflang, Open Graph, JSON-LD, dan sitemap. Hanya link Reforma dan Tani Segar yang tetap memakai github.io.
+- Setiap kali `css/styles.css` atau `js/main.js` diubah, **naikkan angka `?v=` di link-nya** (di `index.html` dan `en/index.html`), misalnya `?v=20261114` menjadi tanggal hari itu. Tanpa ini, pengunjung lama tetap melihat CSS/JS versi lama dari cache browser.
 - Gambar Open Graph berukuran 1200×630, format JPG.
 
 ## 6. Deploy
