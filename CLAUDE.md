@@ -33,9 +33,10 @@ Isinya ringkasan hal penting supaya tidak perlu dijelaskan ulang.
 - Halaman Indonesia: `index.html`. Halaman Inggris: `en/index.html`. Isi keduanya harus tetap sejajar.
 - Urutan section: hero, masalah, layanan, untuk-siapa, karya, cara-kerja, tentang, faq, kontak, footer.
 - Karya:
-  - Semua kartu ukurannya setara (tidak ada kartu besar). Laptop: baris 1 = 2 kartu lebar (Reforma, CW Bali), baris 2 = 3 kartu.
+  - Semua kartu ukurannya setara (tidak ada kartu besar). Laptop: 2 kartu per baris (Reforma + CW Bali, EBD-PHB + Tabuhan, Tani Segar + SAKA).
   - Reforma: proyek nyata (tetap tampilkan angka keunggulannya), https://anizrastudio.github.io/reforma-furniture/
   - Tani Segar Bedugul: konsep, https://anizrastudio.github.io/tani-segar-bedugul/
+  - SAKA, Jakarta: konsep toko online (jam tangan, fiktif), https://saka.anizrastudio.com/. Repo terpisah `thariqabe666/anizra-ecommerce-mockup`, di-host di Vercel. Pembayarannya masih simulasi; jangan diklaim sebagai pembayaran nyata.
   - Lereng Coffee: konsep, belum dibuat (kartunya disembunyikan sampai selesai).
   - Karya tim senior di grid yang sama: CW Bali, EBD-PHB, Tabuhan Island (label kartu "Tim senior · …", dijelaskan di catatan bawah section).
     Dibuat oleh mentor & mitra senior Anizra (pemilik perusahaan-perusahaan itu, sudah setuju ditampilkan).
